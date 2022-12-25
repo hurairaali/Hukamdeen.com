@@ -1,0 +1,600 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  margin-top: 14rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+  margin: 0 7px;
+  color: #212529;
+}
+
+.navbar-light b {
+  font-size: 23px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  opacity: 0.8;
+}
+
+section {
+  margin: 5rem 0px 0px 0px;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand img {
+  width: 60px;
+}
+
+.btn-secondary {
+  color: black;
+  border: none;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.nav-bar {
+  box-shadow: 0px 4px 19px rgb(0 0 0 / 10%);
+}
+
+.btn-secondary:hover {
+  background-color: black;
+}
+
+hr {
+  border-bottom: 0px solid #4d4d4d;
+  width: 100%;
+  margin-bottom: 7rem;
+  margin-top: 5rem;
+}
+
+h4 {
+  z-index: 8;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 82px;
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 66px;
+  font-weight: 500;
+}
+
+span {
+  font-size: 22px;
+  line-height: 1px;
+}
+
+.counter {
+  padding: 0px 25px;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.btn-hover-black:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.card {
+  height: calc(100% - 18px);
+}
+
+.blog {
+  color: #000;
+  margin-top: 18px;
+}
+
+a.blog:hover {
+  color: #000;
+  opacity: 0.8;
+}
+
+.blog-content hr {
+  border-bottom: 0px solid #4d4d4d;
+  width: 80%;
+  margin-bottom: 2rem;
+  margin-top: 1.8rem;
+}
+
+.section-span {
+  margin-bottom: 30px;
+  padding: 0px 0px 0px 50px;
+}
+
+.section-p p {
+  color: #4d4d4d;
+  padding: 0px 0px 20px;
+  font-size: 18px;
+  text-align: start;
+}
+
+.team img {
+  width: 60%;
+}
+
+.team .hero {
+  margin-top: 8rem;
+}
+
+.team hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.team ul li {
+  font-size: 17px;
+}
+
+.team p {
+  padding: 0 0 20px;
+  margin: 0;
+  font-size: 17px;
+  color: #4d4d4d;
+}
+
+.info-form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+textarea.form-control {
+  height: 10rem;
+}
+.form-control {
+  border-radius: 0px;
+}
+.contact-form input {
+  width: 50%;
+  padding: 10px 0px 10px 20px;
+  height: 52px;
+  border: 1px solid #e1e1e1;
+  outline: none;
+}
+.contact-form .input2 {
+  margin: 0px 0px 6px -5px;
+}
+.form-control {
+  border: 1px solid #e1e1e1;
+  outline: none;
+}
+
+.conatct-location .place {
+  margin-left: 20px;
+}
+
+.conatct-location ul small {
+  font-style: normal;
+  margin: 18px;
+  color: #1e3851;
+  font-size: 18px;
+}
+
+.footer-bold {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.footer-bold p {
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #4d4d4d;
+}
+
+.card-title {
+  font-size: 30px;
+  text-align: start;
+}
+
+.card-body {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.section-span span a {
+  color: #000000;
+  margin-bottom: 5rem;
+  text-decoration: underline;
+}
+
+p {
+  z-index: 9;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  white-space: normal;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* #fifth-section img {
+  margin: 20px;
+  padding: 5px;
+} */
+.footer-input input {
+  color: #6c757d;
+  border: none;
+  font-size: 22px;
+  margin-top: 3rem;
+  outline: none;
+}
+
+.footer-icon .material-icons {
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.footer-email .blog-content {
+  margin-top: 0rem;
+  margin-left: -3rem;
+  width: 80%;
+}
+
+.footer-border hr {
+  border-bottom: 0px solid #4d4d4d;
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.positionfooter {
+  position: absolute;
+  left: 50%;
+  bottom: 52%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+footer {
+  position: relative;
+  margin-top: 200px;
+  padding-top: 12rem;
+  color: #fff;
+  background-color: #242b33;
+}
+
+footer img.logo {
+  width: 80px;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer b {
+  display: block;
+  margin-top: 10px;
+}
+
+footer small {
+  font-size: 80%;
+  line-height: 1.8;
+}
+
+footer h2 {
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+footer strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+footer hr {
+  margin: 0;
+  border-color: white;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  color: white;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer ul li a:hover {
+  color: #fff555;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  .section-span {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .counter {
+    padding: 0px 0px;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+
+  .card .material-icons {
+    left: 44%;
+    cursor: pointer;
+  }
+
+  .blog-content {
+    margin-top: 2rem;
+  }
+
+  .blog-content h3 {
+    font-size: 23px;
+    font-weight: 500;
+  }
+
+  .blog-content hr {
+    border-bottom: 0px solid #4d4d4d;
+    width: 80%;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+
+  .footer-email .blog-content {
+    margin-top: 1rem;
+    margin-left: -3rem;
+    width: 100%;
+  }
+
+  .footer-span {
+    margin-top: 3rem;
+  }
+
+  footer {
+    padding: 125px 20px 10px 20px;
+  }
+}
+
+h2.head {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 80px 0 30px;
+}
+
+h2.head::after {
+  content: "";
+  width: 150px;
+  height: 7px;
+  background: black;
+  border-radius: 50px;
+  position: relative;
+  bottom: -10px;
+  display: block;
+  left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+.title::before {
+  content: "Dr.";
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  width: 35px;
+  height: 35px;
+  background: #fff555;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  display: block;
+  left: 17px;
+  transform: translate(-50%, 0px);
+  padding: 6px 0px;
+}
+
+.lawyer {
+  padding: 100px 0;
+}
+
+.lawyer p {
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.lawyer .social-icons {
+  margin-top: 20px;
+}
+
+.lawyer .social-icons i {
+  font-size: 22px;
+}
+
+.lawyer .social-icons i:hover {
+  opacity: 0.8;
+}
+
+.lawyer .social-icons a:hover {
+  text-decoration: none;
+}
+.contact ul span {
+  font-size: 17px;
+  color: #4d4d4d;
+  display: block;
+  margin: 10px -8px;
+  padding: 5px;
+}
+
+@media (max-width: 570px) {
+  .hero {
+    margin-top: 7rem;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-title {
+    font-size: 19px;
+    text-align: start;
+  }
+
+  .section-p p {
+    padding: 0px 0px 0px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .card .material-icons {
+    left: 39%;
+    cursor: pointer;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .blog-content img {
+    width: 50%;
+  }
+
+  .positionfooter {
+    left: 47%;
+  }
+
+  .footer-email {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2.head {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 60px 0 30px;
+  }
+
+  .lawyer {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: 60px;
+    line-height: 0.9;
+  }
+
+  span {
+    font-size: 16px;
+    line-height: 1px;
+  }
+
+  .blog-content h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .blog-content img {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  .positionfooter {
+    position: absolute;
+    left: 50%;
+    bottom: 62%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+
+  .positionfooter h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .card .material-icons {
+    left: 24%;
+  }
+
+  footer img.logo {
+    width: 60px;
+  }
+
+  footer h2 {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+
+  footer small {
+    font-size: 80%;
+    text-align: justify;
+  }
+  .contact{
+    padding-left: 0px !important;
+  }
+.CONTACT{
+padding-left: 2px;
+}}
